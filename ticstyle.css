@@ -1,0 +1,108 @@
+#display {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+
+    display: inline-block;
+    margin-top: 5%;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 1%;
+    padding-top: 15px;
+    background-color : rgb(80, 238, 238);
+    border: black;
+    
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+#newgame {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 20px;
+    display: inline-block;
+
+    float: right;
+    margin-top: 5%;
+    margin: auto;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-top: 0px;
+    background-color : rgb(80, 238, 238);
+    border: black;
+    
+    height: 50px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+* {
+    background-color: rgb(117, 160, 151);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    max-width: 60rem;
+    margin: 0 auto;
+    height: 100vh;
+    margin-top: 2%;
+    
+}
+
+
+main {
+    margin-top: 5%;
+    display: block;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding-top: 80%;
+    border-radius: 6px;
+    background-color: rgb(39, 56, 56);
+}
+
+#grid-container {
+    background-color: rgb(39, 56, 56);
+    position: absolute;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0%;
+    text-align: center;
+    display : grid;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+.grid-block {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  background-color: rgb(150, 201, 224);
+  display: block;
+  position: relative;
+  border: 1px rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  box-sizing: border-box;
+  padding-top: 25%;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+}
