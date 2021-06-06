@@ -10,7 +10,7 @@ const gameBoard = (() => { // module
         
         tile.addEventListener('click', function(e) {
             console.log(gameController.getGameOn());
-            if (gameController.getGameOn()) {
+            if (gameController.getGameOn() && e.target.textContent == '') {
                 let p = gameController.getPlayerTurn();
 
                 letterArray[e.target.getAttribute('id')] = p.letter;
